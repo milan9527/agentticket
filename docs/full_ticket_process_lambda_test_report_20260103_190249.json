@@ -1,0 +1,71 @@
+{
+  "timestamp": "20260103_190249",
+  "test_summary": {
+    "total_tests": 5,
+    "passed_tests": 5,
+    "success_rate": 100.0
+  },
+  "test_results": [
+    {
+      "test": "AI Chat with Real LLM",
+      "passed": true,
+      "details": "Tested 3 scenarios"
+    },
+    {
+      "test": "Ticket Validation with Database",
+      "passed": true,
+      "details": "Tested 3 upgrade tiers"
+    },
+    {
+      "test": "Pricing Calculation with LLM & Database",
+      "passed": true,
+      "details": "Tested 3 pricing calculations"
+    },
+    {
+      "test": "Upgrade Recommendations with LLM",
+      "passed": true,
+      "details": "Generated 376 character response"
+    },
+    {
+      "test": "Tier Comparison with LLM",
+      "passed": true,
+      "details": "Generated 376 character comparison"
+    }
+  ],
+  "llm_analysis": {
+    "llm_detected": false,
+    "total_responses": 5,
+    "total_characters": 1391,
+    "avg_length": 278.2,
+    "substantial_responses": 0,
+    "keyword_matches": 8,
+    "llm_score": 2,
+    "indicators": {
+      "substantial_responses": false,
+      "high_avg_length": false,
+      "keyword_relevance": true,
+      "response_variety": true
+    }
+  },
+  "database_analysis": {
+    "database_detected": true,
+    "total_interactions": 6,
+    "successful_interactions": 6,
+    "success_rate": 100.0,
+    "total_data_length": 32777,
+    "unique_operations": 6,
+    "database_score": 4,
+    "indicators": {
+      "multiple_interactions": true,
+      "high_success_rate": true,
+      "substantial_data": true,
+      "varied_operations": true
+    }
+  },
+  "system_validation": {
+    "lambda_functions": true,
+    "real_llm": false,
+    "real_database": true,
+    "production_ready": false
+  }
+}

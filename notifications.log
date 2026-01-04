@@ -1,0 +1,112 @@
+2026-01-02 19:11:44,744 - NotificationService - INFO - Sending notification: d39cb5d3-da99-4343-8da4-731a25b7bf86 - NotificationType.PAYMENT_SUCCESS to alice.johnson@example.com
+2026-01-02 19:11:45,531 - NotificationService - INFO - Notification sent: d39cb5d3-da99-4343-8da4-731a25b7bf86
+2026-01-02 19:11:47,863 - NotificationService - INFO - Notification delivered: d39cb5d3-da99-4343-8da4-731a25b7bf86
+2026-01-02 19:11:47,865 - NotificationService - INFO - Sending notification: d04ef17f-c50a-4ab0-829b-e7e85eecf36b - NotificationType.UPGRADE_CONFIRMATION to alice.johnson@example.com
+2026-01-02 19:11:48,442 - NotificationService - INFO - Notification sent: d04ef17f-c50a-4ab0-829b-e7e85eecf36b
+2026-01-02 19:11:51,665 - NotificationService - WARNING - Notification bounced: d04ef17f-c50a-4ab0-829b-e7e85eecf36b
+2026-01-02 19:11:53,275 - NotificationService - INFO - Sending notification: 3d05b55f-1f86-43a6-92c7-56e2101012fe - NotificationType.PAYMENT_SUCCESS to bob.smith@example.com
+2026-01-02 19:11:53,787 - NotificationService - INFO - Notification sent: 3d05b55f-1f86-43a6-92c7-56e2101012fe
+2026-01-02 19:11:55,396 - NotificationService - INFO - Notification delivered: 3d05b55f-1f86-43a6-92c7-56e2101012fe
+2026-01-02 19:11:55,396 - NotificationService - INFO - Sending notification: e068923c-2c2f-493c-a5c5-8d6bde6293b6 - NotificationType.UPGRADE_CONFIRMATION to bob.smith@example.com
+2026-01-02 19:11:57,142 - NotificationService - INFO - Notification sent: e068923c-2c2f-493c-a5c5-8d6bde6293b6
+2026-01-02 19:12:01,401 - NotificationService - INFO - Notification delivered: e068923c-2c2f-493c-a5c5-8d6bde6293b6
+2026-01-02 19:12:06,213 - NotificationService - INFO - Sending notification: 327d3320-e84d-4b01-a3ef-c55cf335007b - NotificationType.PAYMENT_FAILED to carol.davis@example.com
+2026-01-02 19:12:08,064 - NotificationService - INFO - Notification sent: 327d3320-e84d-4b01-a3ef-c55cf335007b
+2026-01-02 19:12:09,880 - NotificationService - INFO - Notification delivered: 327d3320-e84d-4b01-a3ef-c55cf335007b
+2026-01-02 19:12:13,957 - NotificationService - INFO - Sending notification: 716d77f9-0e10-438c-80c5-fb000eabc22d - NotificationType.PAYMENT_SUCCESS to carol.davis@example.com
+2026-01-02 19:12:15,342 - NotificationService - INFO - Notification sent: 716d77f9-0e10-438c-80c5-fb000eabc22d
+2026-01-02 19:12:17,074 - NotificationService - INFO - Notification delivered: 716d77f9-0e10-438c-80c5-fb000eabc22d
+2026-01-02 19:12:17,075 - NotificationService - INFO - Sending notification: 382d7947-f133-4103-8c97-2518b5a0c5ad - NotificationType.UPGRADE_CONFIRMATION to carol.davis@example.com
+2026-01-02 19:12:17,826 - NotificationService - INFO - Notification sent: 382d7947-f133-4103-8c97-2518b5a0c5ad
+2026-01-02 19:12:20,373 - NotificationService - INFO - Notification delivered: 382d7947-f133-4103-8c97-2518b5a0c5ad
+2026-01-02 19:12:20,374 - NotificationService - INFO - Sending notification: 56d4600b-0fe7-43b1-8f45-ec7c2d0ed6ee - NotificationType.SYSTEM_ERROR to error@example.com
+2026-01-02 19:12:21,207 - NotificationService - INFO - Notification sent: 56d4600b-0fe7-43b1-8f45-ec7c2d0ed6ee
+2026-01-02 19:12:23,856 - NotificationService - INFO - Notification delivered: 56d4600b-0fe7-43b1-8f45-ec7c2d0ed6ee
+2026-01-02 19:20:20,487 - NotificationService - INFO - Sending notification: e03dceba-5f81-4466-8cbf-cc3ffa8e6a91 - NotificationType.PAYMENT_SUCCESS to john.doe@example.com
+2026-01-02 19:20:21,273 - NotificationService - INFO - Notification sent: e03dceba-5f81-4466-8cbf-cc3ffa8e6a91
+2026-01-02 19:20:22,790 - NotificationService - INFO - Notification delivered: e03dceba-5f81-4466-8cbf-cc3ffa8e6a91
+2026-01-02 19:20:22,791 - NotificationService - INFO - Sending notification: 0f41288d-2234-49f6-bf5a-24ad1a2bf5f5 - NotificationType.UPGRADE_CONFIRMATION to john.doe@example.com
+2026-01-02 19:20:23,388 - NotificationService - INFO - Notification sent: 0f41288d-2234-49f6-bf5a-24ad1a2bf5f5
+2026-01-02 19:20:27,011 - NotificationService - INFO - Notification delivered: 0f41288d-2234-49f6-bf5a-24ad1a2bf5f5
+2026-01-02 19:20:44,630 - NotificationService - INFO - Sending notification: 6d36da70-723b-439f-a2e5-dde32d2690e8 - NotificationType.PAYMENT_SUCCESS to jane.smith@example.com
+2026-01-02 19:20:46,209 - NotificationService - INFO - Notification sent: 6d36da70-723b-439f-a2e5-dde32d2690e8
+2026-01-02 19:20:49,874 - NotificationService - INFO - Notification delivered: 6d36da70-723b-439f-a2e5-dde32d2690e8
+2026-01-02 19:20:49,874 - NotificationService - INFO - Sending notification: d4f00ead-d059-4be5-8ed3-886b7f71af73 - NotificationType.UPGRADE_CONFIRMATION to jane.smith@example.com
+2026-01-02 19:20:51,140 - NotificationService - INFO - Notification sent: d4f00ead-d059-4be5-8ed3-886b7f71af73
+2026-01-02 19:20:52,854 - NotificationService - INFO - Notification delivered: d4f00ead-d059-4be5-8ed3-886b7f71af73
+2026-01-02 19:21:09,796 - NotificationService - INFO - Sending notification: ccc55f60-4363-48db-99ce-172832f83d62 - NotificationType.PAYMENT_FAILED to bob.johnson@example.com
+2026-01-02 19:21:11,668 - NotificationService - INFO - Notification sent: ccc55f60-4363-48db-99ce-172832f83d62
+2026-01-02 19:21:12,957 - NotificationService - INFO - Notification delivered: ccc55f60-4363-48db-99ce-172832f83d62
+2026-01-02 19:21:32,389 - NotificationService - INFO - Sending notification: 0bd069c5-cd39-4363-96f6-053e960a66a3 - NotificationType.PAYMENT_SUCCESS to alice.brown@example.com
+2026-01-02 19:21:33,844 - NotificationService - INFO - Notification sent: 0bd069c5-cd39-4363-96f6-053e960a66a3
+2026-01-02 19:21:36,341 - NotificationService - INFO - Notification delivered: 0bd069c5-cd39-4363-96f6-053e960a66a3
+2026-01-02 19:21:36,342 - NotificationService - INFO - Sending notification: db8d00a6-7f8f-4fcd-aff1-d72b450e4603 - NotificationType.UPGRADE_CONFIRMATION to alice.brown@example.com
+2026-01-02 19:21:37,472 - NotificationService - INFO - Notification sent: db8d00a6-7f8f-4fcd-aff1-d72b450e4603
+2026-01-02 19:21:40,602 - NotificationService - INFO - Notification delivered: db8d00a6-7f8f-4fcd-aff1-d72b450e4603
+2026-01-02 19:22:40,504 - NotificationService - INFO - Sending notification: 6fd2b6e8-efb3-4b45-ac4b-21cd12cb11d8 - NotificationType.PAYMENT_SUCCESS to john.doe@example.com
+2026-01-02 19:22:42,371 - NotificationService - INFO - Notification sent: 6fd2b6e8-efb3-4b45-ac4b-21cd12cb11d8
+2026-01-02 19:22:44,091 - NotificationService - INFO - Notification delivered: 6fd2b6e8-efb3-4b45-ac4b-21cd12cb11d8
+2026-01-02 19:22:44,092 - NotificationService - INFO - Sending notification: af231154-48d0-4f5f-8dda-7bfe8bb72b87 - NotificationType.UPGRADE_CONFIRMATION to john.doe@example.com
+2026-01-02 19:22:45,312 - NotificationService - INFO - Notification sent: af231154-48d0-4f5f-8dda-7bfe8bb72b87
+2026-01-02 19:22:46,741 - NotificationService - INFO - Notification delivered: af231154-48d0-4f5f-8dda-7bfe8bb72b87
+2026-01-02 19:23:08,943 - NotificationService - INFO - Sending notification: 007138c9-460d-4faa-a7c1-a16911bd55ce - NotificationType.PAYMENT_SUCCESS to jane.smith@example.com
+2026-01-02 19:23:10,139 - NotificationService - INFO - Notification sent: 007138c9-460d-4faa-a7c1-a16911bd55ce
+2026-01-02 19:23:11,839 - NotificationService - INFO - Notification delivered: 007138c9-460d-4faa-a7c1-a16911bd55ce
+2026-01-02 19:23:11,840 - NotificationService - INFO - Sending notification: 688f6bb0-161d-4f3c-a612-1767efd24f2f - NotificationType.UPGRADE_CONFIRMATION to jane.smith@example.com
+2026-01-02 19:23:13,168 - NotificationService - INFO - Notification sent: 688f6bb0-161d-4f3c-a612-1767efd24f2f
+2026-01-02 19:23:16,859 - NotificationService - INFO - Notification delivered: 688f6bb0-161d-4f3c-a612-1767efd24f2f
+2026-01-02 19:23:40,071 - NotificationService - INFO - Sending notification: 72cc37d3-dcc6-4065-87dd-717aa058ef43 - NotificationType.PAYMENT_SUCCESS to bob.johnson@example.com
+2026-01-02 19:23:41,769 - NotificationService - INFO - Notification sent: 72cc37d3-dcc6-4065-87dd-717aa058ef43
+2026-01-02 19:23:43,114 - NotificationService - INFO - Notification delivered: 72cc37d3-dcc6-4065-87dd-717aa058ef43
+2026-01-02 19:23:43,115 - NotificationService - INFO - Sending notification: e255ca59-1a72-40cc-95ab-eb68a4aad202 - NotificationType.UPGRADE_CONFIRMATION to bob.johnson@example.com
+2026-01-02 19:23:44,286 - NotificationService - INFO - Notification sent: e255ca59-1a72-40cc-95ab-eb68a4aad202
+2026-01-02 19:23:46,780 - NotificationService - INFO - Notification delivered: e255ca59-1a72-40cc-95ab-eb68a4aad202
+2026-01-02 19:24:15,564 - NotificationService - INFO - Sending notification: 77f3c400-85b0-4a1a-8780-d7f22b08382a - NotificationType.PAYMENT_SUCCESS to alice.brown@example.com
+2026-01-02 19:24:17,406 - NotificationService - INFO - Notification sent: 77f3c400-85b0-4a1a-8780-d7f22b08382a
+2026-01-02 19:24:19,512 - NotificationService - WARNING - Notification bounced: 77f3c400-85b0-4a1a-8780-d7f22b08382a
+2026-01-02 19:24:19,513 - NotificationService - INFO - Sending notification: bf40ee52-1bbf-4ea6-bfff-56babc5679f0 - NotificationType.UPGRADE_CONFIRMATION to alice.brown@example.com
+2026-01-02 19:24:21,045 - NotificationService - INFO - Notification sent: bf40ee52-1bbf-4ea6-bfff-56babc5679f0
+2026-01-02 19:24:22,075 - NotificationService - INFO - Notification delivered: bf40ee52-1bbf-4ea6-bfff-56babc5679f0
+2026-01-02 19:27:01,192 - NotificationService - INFO - Sending notification: d23a3a43-f840-4667-9053-2c3c3307439f - NotificationType.PAYMENT_SUCCESS to john.doe@example.com
+2026-01-02 19:27:01,717 - NotificationService - INFO - Notification sent: d23a3a43-f840-4667-9053-2c3c3307439f
+2026-01-02 19:27:03,780 - NotificationService - INFO - Notification delivered: d23a3a43-f840-4667-9053-2c3c3307439f
+2026-01-02 19:47:47,406 - NotificationService - INFO - Sending notification: 55431b3f-f0b7-42f7-bf64-e313c25088e0 - NotificationType.PAYMENT_SUCCESS to jane.smith@example.com
+2026-01-02 19:47:48,706 - NotificationService - INFO - Notification sent: 55431b3f-f0b7-42f7-bf64-e313c25088e0
+2026-01-02 19:47:53,383 - NotificationService - INFO - Notification delivered: 55431b3f-f0b7-42f7-bf64-e313c25088e0
+2026-01-02 20:04:26,913 - NotificationService - INFO - Sending notification: c17ec4e5-2df1-400a-9f75-3bad9789543e - NotificationType.PAYMENT_SUCCESS to bob.johnson@example.com
+2026-01-02 20:04:27,467 - NotificationService - INFO - Notification sent: c17ec4e5-2df1-400a-9f75-3bad9789543e
+2026-01-02 20:04:28,625 - NotificationService - INFO - Notification delivered: c17ec4e5-2df1-400a-9f75-3bad9789543e
+2026-01-02 20:24:43,527 - NotificationService - INFO - Sending notification: cb3aaf56-861e-4d82-bf39-d0e9920b7aef - NotificationType.PAYMENT_SUCCESS to alice.johnson@example.com
+2026-01-02 20:24:44,317 - NotificationService - INFO - Notification sent: cb3aaf56-861e-4d82-bf39-d0e9920b7aef
+2026-01-02 20:24:47,988 - NotificationService - INFO - Notification delivered: cb3aaf56-861e-4d82-bf39-d0e9920b7aef
+2026-01-02 20:24:47,988 - NotificationService - INFO - Sending notification: 2bcbac7d-0fe1-4da4-892e-f0f5ebe170a0 - NotificationType.UPGRADE_CONFIRMATION to alice.johnson@example.com
+2026-01-02 20:24:49,950 - NotificationService - INFO - Notification sent: 2bcbac7d-0fe1-4da4-892e-f0f5ebe170a0
+2026-01-02 20:24:51,907 - NotificationService - INFO - Notification delivered: 2bcbac7d-0fe1-4da4-892e-f0f5ebe170a0
+2026-01-02 20:24:54,783 - NotificationService - INFO - Sending notification: 6f0a7ca4-3b69-4abc-bb32-d62de7224398 - NotificationType.PAYMENT_FAILED to bob.smith@example.com
+2026-01-02 20:24:56,576 - NotificationService - INFO - Notification sent: 6f0a7ca4-3b69-4abc-bb32-d62de7224398
+2026-01-02 20:24:59,098 - NotificationService - INFO - Notification delivered: 6f0a7ca4-3b69-4abc-bb32-d62de7224398
+2026-01-02 20:25:03,083 - NotificationService - INFO - Sending notification: edb9c4d0-657f-42bc-adc5-7729019551d7 - NotificationType.PAYMENT_SUCCESS to bob.smith@example.com
+2026-01-02 20:25:05,019 - NotificationService - INFO - Notification sent: edb9c4d0-657f-42bc-adc5-7729019551d7
+2026-01-02 20:25:09,356 - NotificationService - INFO - Notification delivered: edb9c4d0-657f-42bc-adc5-7729019551d7
+2026-01-02 20:25:09,357 - NotificationService - INFO - Sending notification: 0795784f-653c-498a-ab1f-c348f3985f16 - NotificationType.UPGRADE_CONFIRMATION to bob.smith@example.com
+2026-01-02 20:25:09,870 - NotificationService - INFO - Notification sent: 0795784f-653c-498a-ab1f-c348f3985f16
+2026-01-02 20:25:11,543 - NotificationService - INFO - Notification delivered: 0795784f-653c-498a-ab1f-c348f3985f16
+2026-01-02 20:25:13,311 - NotificationService - INFO - Sending notification: 69492308-4a67-42bd-a2af-5ce9e66e9ec6 - NotificationType.PAYMENT_SUCCESS to carol.davis@example.com
+2026-01-02 20:25:14,541 - NotificationService - INFO - Notification sent: 69492308-4a67-42bd-a2af-5ce9e66e9ec6
+2026-01-02 20:25:16,449 - NotificationService - INFO - Notification delivered: 69492308-4a67-42bd-a2af-5ce9e66e9ec6
+2026-01-02 20:25:16,449 - NotificationService - INFO - Sending notification: e9e62c0b-26cf-4c6d-9798-cc99f8208356 - NotificationType.UPGRADE_CONFIRMATION to carol.davis@example.com
+2026-01-02 20:25:17,802 - NotificationService - INFO - Notification sent: e9e62c0b-26cf-4c6d-9798-cc99f8208356
+2026-01-02 20:25:20,714 - NotificationService - INFO - Notification delivered: e9e62c0b-26cf-4c6d-9798-cc99f8208356
+2026-01-02 20:25:20,715 - NotificationService - INFO - Sending notification: 9eb465e3-1e7b-4ae2-922a-7dbdf0a2e07b - NotificationType.SYSTEM_ERROR to error@example.com
+2026-01-02 20:25:21,888 - NotificationService - INFO - Notification sent: 9eb465e3-1e7b-4ae2-922a-7dbdf0a2e07b
+2026-01-02 20:25:24,655 - NotificationService - INFO - Notification delivered: 9eb465e3-1e7b-4ae2-922a-7dbdf0a2e07b
+2026-01-02 20:38:32,053 - NotificationService - INFO - Sending notification: e47c3ee2-3031-45da-b48c-6cc8c0bdb7f7 - NotificationType.PAYMENT_SUCCESS to test@example.com
+2026-01-02 20:38:32,053 - NotificationService - ERROR - Notification failed: e47c3ee2-3031-45da-b48c-6cc8c0bdb7f7 - Missing template variable: 'payment_method'
+2026-01-02 20:39:34,964 - NotificationService - INFO - Sending notification: e2f73831-ec7e-40eb-b41f-81145f5f68b7 - NotificationType.PAYMENT_SUCCESS to test@example.com
+2026-01-02 20:39:34,965 - NotificationService - ERROR - Notification failed: e2f73831-ec7e-40eb-b41f-81145f5f68b7 - Missing template variable: 'payment_method'
+2026-01-02 20:40:36,265 - NotificationService - INFO - Sending notification: 9a8c4c65-a511-47ed-b6cf-9d442c14743f - NotificationType.PAYMENT_SUCCESS to test@example.com
+2026-01-02 20:40:36,266 - NotificationService - ERROR - Notification failed: 9a8c4c65-a511-47ed-b6cf-9d442c14743f - Missing template variable: 'payment_method'
+2026-01-02 20:40:45,913 - NotificationService - INFO - Sending notification: 4d76336c-f86c-4867-965c-edd4b053c485 - NotificationType.PAYMENT_SUCCESS to john.doe@example.com
+2026-01-02 20:40:45,913 - NotificationService - ERROR - Notification failed: 4d76336c-f86c-4867-965c-edd4b053c485 - Missing template variable: 'ticket_number'
+2026-01-02 20:40:45,914 - NotificationService - INFO - Sending notification: 74dd4856-ee8d-44da-b33b-14bcfe709e27 - NotificationType.UPGRADE_CONFIRMATION to john.doe@example.com
+2026-01-02 20:40:45,914 - NotificationService - ERROR - Notification failed: 74dd4856-ee8d-44da-b33b-14bcfe709e27 - Missing template variable: 'total_price'

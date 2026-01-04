@@ -1,0 +1,54 @@
+2026-01-02 19:11:43,122 - PaymentGateway - INFO - Payment processing started: 56c816ca-b93f-40c2-bfa2-cb3eadf333c8 - $75.00
+2026-01-02 19:11:44,738 - PaymentGateway - INFO - Payment completed: 56c816ca-b93f-40c2-bfa2-cb3eadf333c8 - gw_9940cc3148dc
+2026-01-02 19:11:51,665 - PaymentGateway - INFO - Payment processing started: ed984a66-6971-4ccc-806c-a0d4a83ab8a4 - $100.00
+2026-01-02 19:11:53,275 - PaymentGateway - INFO - Payment completed: ed984a66-6971-4ccc-806c-a0d4a83ab8a4 - gw_2bdeda06358e
+2026-01-02 19:12:01,401 - PaymentGateway - INFO - Payment processing started: f9298614-f97c-464d-8a86-48c05f78fd70 - $125.00
+2026-01-02 19:12:06,212 - PaymentGateway - WARNING - Payment failed: f9298614-f97c-464d-8a86-48c05f78fd70 - Network timeout
+2026-01-02 19:12:11,882 - PaymentGateway - INFO - Retrying payment: f9298614-f97c-464d-8a86-48c05f78fd70 (attempt 1)
+2026-01-02 19:12:13,954 - PaymentGateway - INFO - Payment retry successful: f9298614-f97c-464d-8a86-48c05f78fd70 - gw_4d7acb34b122
+2026-01-02 19:20:13,258 - PaymentGateway - INFO - Payment processing started: b0810725-0623-4b7e-9373-85c83d548094 - $25.00
+2026-01-02 19:20:17,009 - PaymentGateway - INFO - Payment completed: b0810725-0623-4b7e-9373-85c83d548094 - gw_51f4154e51c7
+2026-01-02 19:20:38,233 - PaymentGateway - INFO - Payment processing started: c78696f4-66a8-47b3-9def-1a2b81f36de5 - $25.00
+2026-01-02 19:20:41,785 - PaymentGateway - INFO - Payment completed: c78696f4-66a8-47b3-9def-1a2b81f36de5 - gw_4ff1f0a14b5c
+2026-01-02 19:21:05,764 - PaymentGateway - INFO - Payment processing started: 038908b5-e655-4650-8150-a71c1e280d60 - $75.00
+2026-01-02 19:21:09,795 - PaymentGateway - WARNING - Payment failed: 038908b5-e655-4650-8150-a71c1e280d60 - Gateway temporarily unavailable
+2026-01-02 19:21:25,825 - PaymentGateway - INFO - Payment processing started: d7ed710d-0569-45b8-ae6f-c04935637d86 - $50.00
+2026-01-02 19:21:29,013 - PaymentGateway - INFO - Payment completed: d7ed710d-0569-45b8-ae6f-c04935637d86 - gw_8486a836829f
+2026-01-02 19:22:35,113 - PaymentGateway - INFO - Payment processing started: d724d068-406d-4eab-b8e5-9eaf296f5898 - $25.00
+2026-01-02 19:22:36,659 - PaymentGateway - INFO - Payment completed: d724d068-406d-4eab-b8e5-9eaf296f5898 - gw_ea55497643ee
+2026-01-02 19:23:02,524 - PaymentGateway - INFO - Payment processing started: c52c9b0f-8ce7-422c-825b-10aaafeb3e7f - $25.00
+2026-01-02 19:23:05,942 - PaymentGateway - INFO - Payment completed: c52c9b0f-8ce7-422c-825b-10aaafeb3e7f - gw_caa18246cc9b
+2026-01-02 19:23:33,630 - PaymentGateway - INFO - Payment processing started: 429ebee3-fc08-4443-8762-f2059d52d288 - $75.00
+2026-01-02 19:23:37,099 - PaymentGateway - INFO - Payment completed: 429ebee3-fc08-4443-8762-f2059d52d288 - gw_0677daa12767
+2026-01-02 19:24:02,868 - PaymentGateway - INFO - Payment processing started: 6e42cd16-c8bb-46cd-89be-0f68dc5c5354 - $25.00
+2026-01-02 19:24:05,910 - PaymentGateway - WARNING - Payment failed: 6e42cd16-c8bb-46cd-89be-0f68dc5c5354 - Transaction limit exceeded
+2026-01-02 19:24:07,911 - PaymentGateway - INFO - Retrying payment: 6e42cd16-c8bb-46cd-89be-0f68dc5c5354 (attempt 1)
+2026-01-02 19:24:12,803 - PaymentGateway - INFO - Payment retry successful: 6e42cd16-c8bb-46cd-89be-0f68dc5c5354 - gw_a0989e800a08
+2026-01-02 19:26:57,079 - PaymentGateway - INFO - Payment processing started: 126c3561-0c3a-4c8e-8311-acadbecba199 - $25.00
+2026-01-02 19:27:01,181 - PaymentGateway - INFO - Payment completed: 126c3561-0c3a-4c8e-8311-acadbecba199 - gw_d251f6fd05e1
+2026-01-02 19:47:42,472 - PaymentGateway - INFO - Payment processing started: 28707f3c-62ba-460e-96dd-7aced4a9f516 - $25.00
+2026-01-02 19:47:47,383 - PaymentGateway - INFO - Payment completed: 28707f3c-62ba-460e-96dd-7aced4a9f516 - gw_119be26425f9
+2026-01-02 20:04:22,865 - PaymentGateway - INFO - Payment processing started: f3a241f5-dfe9-4794-a280-f835ad33cb81 - $25.00
+2026-01-02 20:04:26,895 - PaymentGateway - INFO - Payment completed: f3a241f5-dfe9-4794-a280-f835ad33cb81 - gw_ab1b374a0cd5
+2026-01-02 20:24:40,087 - PaymentGateway - INFO - Payment processing started: 8f255bbc-ff34-47cc-9637-38b0f31aded2 - $75.00
+2026-01-02 20:24:43,518 - PaymentGateway - INFO - Payment completed: 8f255bbc-ff34-47cc-9637-38b0f31aded2 - gw_1f76067e5c0d
+2026-01-02 20:24:51,907 - PaymentGateway - INFO - Payment processing started: 4eecdb09-9345-45a3-a956-ab33ad3852e1 - $100.00
+2026-01-02 20:24:54,783 - PaymentGateway - WARNING - Payment failed: 4eecdb09-9345-45a3-a956-ab33ad3852e1 - Insufficient funds
+2026-01-02 20:25:01,099 - PaymentGateway - INFO - Retrying payment: 4eecdb09-9345-45a3-a956-ab33ad3852e1 (attempt 1)
+2026-01-02 20:25:03,082 - PaymentGateway - INFO - Payment retry successful: 4eecdb09-9345-45a3-a956-ab33ad3852e1 - gw_2dce3130f1aa
+2026-01-02 20:25:11,544 - PaymentGateway - INFO - Payment processing started: f186715c-0c55-4093-a12a-b9ebf749ce87 - $125.00
+2026-01-02 20:25:13,310 - PaymentGateway - INFO - Payment completed: f186715c-0c55-4093-a12a-b9ebf749ce87 - gw_cd3c2b42a567
+2026-01-02 20:37:15,302 - PaymentGateway - INFO - Payment processing started: 545cf0f6-3876-4747-aad9-9e093b99210d - $25.00
+2026-01-02 20:37:17,137 - PaymentGateway - INFO - Payment completed: 545cf0f6-3876-4747-aad9-9e093b99210d - gw_9482ac8470f3
+2026-01-02 20:38:28,800 - PaymentGateway - INFO - Payment processing started: ccfb72c4-4ca9-4c76-9b02-a610903f898f - $25.00
+2026-01-02 20:38:32,046 - PaymentGateway - INFO - Payment completed: ccfb72c4-4ca9-4c76-9b02-a610903f898f - gw_684c86e3d377
+2026-01-02 20:38:38,409 - PaymentGateway - INFO - Payment processing started: 667e8335-9aee-448b-9f55-491682cf9d90 - $60.00
+2026-01-02 20:38:41,004 - PaymentGateway - INFO - Payment completed: 667e8335-9aee-448b-9f55-491682cf9d90 - gw_52c922da7a85
+2026-01-02 20:39:30,714 - PaymentGateway - INFO - Payment processing started: 8751b9fc-be24-45e5-93d4-0cffa922003c - $25.00
+2026-01-02 20:39:34,953 - PaymentGateway - WARNING - Payment failed: 8751b9fc-be24-45e5-93d4-0cffa922003c - Invalid merchant configuration
+2026-01-02 20:39:40,854 - PaymentGateway - INFO - Payment processing started: b09e38a3-0035-458e-b29e-18eea64eb012 - $60.00
+2026-01-02 20:39:45,645 - PaymentGateway - WARNING - Payment failed: b09e38a3-0035-458e-b29e-18eea64eb012 - Invalid card number
+2026-01-02 20:40:35,205 - PaymentGateway - INFO - Payment processing started: 92a71977-4e34-4bb9-b4c8-08c1a7afbd71 - $25.00
+2026-01-02 20:40:36,260 - PaymentGateway - INFO - Payment completed: 92a71977-4e34-4bb9-b4c8-08c1a7afbd71 - gw_7fda1df64619
+2026-01-02 20:40:43,813 - PaymentGateway - INFO - Payment processing started: a1410253-d657-488f-800f-22b1474dc69a - $60.00
+2026-01-02 20:40:45,180 - PaymentGateway - INFO - Payment completed: a1410253-d657-488f-800f-22b1474dc69a - gw_ae562dfdbc0c

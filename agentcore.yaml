@@ -1,0 +1,63 @@
+# AgentCore Configuration for Ticket Auto-Processing System
+# This configuration sets up the development environment for local testing
+
+apiVersion: v1
+kind: AgentCoreConfig
+metadata:
+  name: ticket-auto-process
+  description: "Ticket Auto-Processing System with Data and Ticket Agents"
+
+# Agent configuration
+agents:
+  data-agent:
+    name: "Data Agent"
+    description: "Handles database operations and data validation with LLM reasoning"
+    type: "mcp"
+    mcp:
+      server_url: "http://localhost:8001"
+      tools:
+        - get_customer
+        - create_customer
+        - get_tickets_for_customer
+        - validate_data_integrity
+    
+  ticket-agent:
+    name: "Ticket Agent"
+    description: "Handles ticket processing and upgrade workflows with LLM reasoning"
+    type: "mcp"
+    mcp:
+      server_url: "http://localhost:8002"
+      tools:
+        - validate_ticket_eligibility
+        - calculate_upgrade_pricing
+        - process_upgrade_selection
+
+# Environment configuration
+environment:
+  aws_region: "us-west-2"
+  bedrock_model: "us.amazon.nova-pro-v1:0"
+  
+# Development settings
+development:
+  hot_reload: true
+  debug: true
+  log_level: "INFO"
+  
+# MCP Gateway configuration
+mcp_gateway:
+  enabled: true
+  port: 8000
+  agents:
+    - data-agent
+    - ticket-agent
+
+# Memory configuration
+memory:
+  enabled: true
+  type: "bedrock"
+  session_timeout: 3600  # 1 hour
+
+# Authentication (for development)
+auth:
+  type: "development"
+  skip_verification: true

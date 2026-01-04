@@ -1,0 +1,41 @@
+{
+  "demo_scenarios": [
+    {
+      "name": "Welcome & Introduction",
+      "user_input": "Hi! I'm interested in upgrading my ticket",
+      "expected_ai_behavior": "Friendly greeting, offers to help with upgrades",
+      "success_criteria": "AI responds naturally and offers assistance"
+    },
+    {
+      "name": "Ticket Information",
+      "user_input": "My ticket ID is 550e8400-e29b-41d4-a716-446655440002",
+      "expected_ai_behavior": "Validates ticket, shows eligibility status",
+      "success_criteria": "AI recognizes ticket and provides status"
+    },
+    {
+      "name": "Pricing Inquiry",
+      "user_input": "How much would it cost to upgrade?",
+      "expected_ai_behavior": "Provides pricing information with details",
+      "success_criteria": "AI gives specific pricing with explanations"
+    },
+    {
+      "name": "Feature Comparison",
+      "user_input": "What are the differences between upgrade tiers?",
+      "expected_ai_behavior": "Explains tier differences and benefits",
+      "success_criteria": "AI provides detailed tier comparison"
+    },
+    {
+      "name": "Upgrade Selection",
+      "user_input": "I'd like the Premium upgrade",
+      "expected_ai_behavior": "Confirms selection, guides next steps",
+      "success_criteria": "AI acknowledges choice and provides guidance"
+    }
+  ],
+  "technical_validation": {
+    "authentication": "User can login with demo credentials",
+    "chat_interface": "Messages send and receive properly",
+    "api_integration": "Backend responds to frontend calls",
+    "error_handling": "Graceful handling of errors",
+    "responsive_design": "Works on different screen sizes"
+  }
+}
